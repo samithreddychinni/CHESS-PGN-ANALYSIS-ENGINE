@@ -1,0 +1,974 @@
+--- Chess PGN Analyzer ---
+Analyzing game at depth 4...
+
+========================================
+Move 1 (White)
+Move Played: e4 (e2e4)
+----------------------------------------
+All Legal Moves (20):
+a2a3 a2a4 b2b3 b2b4 c2c3 c2c4 d2d3 d2d4 e2e3 e2e4
+f2f3 f2f4 g2g3 g2g4 h2h3 h2h4 b1a3 b1c3 g1f3 g1h3
+
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0.25
+  - Engine's Choice: b1c3
+
+========================================
+Move 1 (Black)
+Move Played: c5 (c7c5)
+----------------------------------------
+All Legal Moves (20):
+a7a6 a7a5 b7b6 b7b5 c7c6 c7c5 d7d6 d7d5 e7e6 e7e5
+f7f6 f7f5 g7g6 g7g5 h7h6 h7h5 b8a6 b8c6 g8f6 g8h6
+
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0.4
+  - Engine's Choice: b8c6
+
+========================================
+Move 2 (White)
+Move Played: Nf3 (g1f3)
+----------------------------------------
+All Legal Moves (30):
+a2a3 a2a4 b2b3 b2b4 c2c3 c2c4 d2d3 d2d4 f2f3 f2f4
+g2g3 g2g4 h2h3 h2h4 e4e5 b1a3 b1c3 g1e2 g1f3 g1h3
+f1e2 f1d3 f1c4 f1b5 f1a6 d1e2 d1f3 d1g4 d1h5 e1e2
+
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: -0.2
+  - Engine's Choice: b1c3
+
+========================================
+Move 2 (Black)
+Move Played: d6 (d7d6)
+----------------------------------------
+All Legal Moves (22):
+c5c4 a7a6 a7a5 b7b6 b7b5 d7d6 d7d5 e7e6 e7e5 f7f6
+f7f5 g7g6 g7g5 h7h6 h7h5 b8a6 b8c6 g8f6 g8h6 d8a5
+d8b6 d8c7 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0.3
+  - Engine's Choice: b8c6
+
+========================================
+Move 3 (White)
+Move Played: d4 (d2d4)
+----------------------------------------
+All Legal Moves (28):
+a2a3 a2a4 b2b3 b2b4 c2c3 c2c4 d2d3 d2d4 g2g3 g2g4
+h2h3 h2h4 e4e5 b1a3 b1c3 f3g1 f3d4 f3h4 f3e5 f3g5
+f1e2 f1d3 f1c4 f1b5 f1a6 h1g1 d1e2 e1e2 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0.45
+  - Engine's Choice: b1c3
+
+========================================
+Move 3 (Black)
+Move Played: cxd4 (c5d4)
+----------------------------------------
+All Legal Moves (30):
+c5c4 c5d4 d6d5 a7a6 a7a5 b7b6 b7b5 e7e6 e7e5 f7f6
+f7f5 g7g6 g7g5 h7h6 h7h5 b8a6 b8c6 b8d7 g8f6 g8h6
+c8h3 c8g4 c8f5 c8e6 c8d7 d8a5 d8b6 d8c7 d8d7 e8d7
+
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: -0.05
+  - Engine's Choice: g8f6
+
+========================================
+Move 4 (White)
+Move Played: Nxd4 (f3d4)
+----------------------------------------
+All Legal Moves (37):
+a2a3 a2a4 b2b3 b2b4 c2c3 c2c4 g2g3 g2g4 h2h3 h2h4
+e4e5 b1d2 b1a3 b1c3 f3g1 f3d2 f3d4 f3h4 f3e5 f3g5
+c1d2 c1e3 c1f4 c1g5 c1h6 f1e2 f1d3 f1c4 f1b5 f1a6
+h1g1 d1d2 d1e2 d1d3 d1d4 e1d2 e1e2 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: -0.1
+  - Engine's Choice: f3d4
+
+========================================
+Move 4 (Black)
+Move Played: Nf6 (g8f6)
+----------------------------------------
+All Legal Moves (28):
+d6d5 a7a6 a7a5 b7b6 b7b5 e7e6 e7e5 f7f6 f7f5 g7g6
+g7g5 h7h6 h7h5 b8a6 b8c6 b8d7 g8f6 g8h6 c8h3 c8g4
+c8f5 c8e6 c8d7 d8a5 d8b6 d8c7 d8d7 e8d7 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0
+  - Engine's Choice: g8f6
+
+========================================
+Move 5 (White)
+Move Played: Nc3 (b1c3)
+----------------------------------------
+All Legal Moves (42):
+a2a3 a2a4 b2b3 b2b4 c2c3 c2c4 f2f3 f2f4 g2g3 g2g4
+h2h3 h2h4 e4e5 b1d2 b1a3 b1c3 d4e2 d4b3 d4f3 d4b5
+d4f5 d4c6 d4e6 c1d2 c1e3 c1f4 c1g5 c1h6 f1e2 f1d3
+f1c4 f1b5 f1a6 h1g1 d1d2 d1e2 d1d3 d1f3 d1g4 d1h5
+e1d2 e1e2 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: -0.1
+  - Engine's Choice: b1c3
+
+========================================
+Move 5 (Black)
+Move Played: a6 (a7a6)
+----------------------------------------
+All Legal Moves (31):
+d6d5 a7a6 a7a5 b7b6 b7b5 e7e6 e7e5 g7g6 g7g5 h7h6
+h7h5 f6e4 f6g4 f6d5 f6h5 f6d7 f6g8 b8a6 b8c6 b8d7
+c8h3 c8g4 c8f5 c8e6 c8d7 h8g8 d8a5 d8b6 d8c7 d8d7
+e8d7 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0.45
+  - Engine's Choice: b8d7
+
+========================================
+Move 6 (White)
+Move Played: Be2 (f1e2)
+----------------------------------------
+All Legal Moves (43):
+a2a3 a2a4 b2b3 b2b4 f2f3 f2f4 g2g3 g2g4 h2h3 h2h4
+e4e5 c3b1 c3e2 c3a4 c3b5 c3d5 d4e2 d4b3 d4f3 d4b5
+d4f5 d4c6 d4e6 c1d2 c1e3 c1f4 c1g5 c1h6 f1e2 f1d3
+f1c4 f1b5 f1a6 a1b1 h1g1 d1d2 d1e2 d1d3 d1f3 d1g4
+d1h5 e1d2 e1e2 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0.05
+  - Engine's Choice: c1g5
+
+========================================
+Move 6 (Black)
+Move Played: e6 (e7e6)
+----------------------------------------
+All Legal Moves (30):
+a6a5 d6d5 b7b6 b7b5 e7e6 e7e5 g7g6 g7g5 h7h6 h7h5
+f6e4 f6g4 f6d5 f6h5 f6d7 f6g8 b8c6 b8d7 c8h3 c8g4
+c8f5 c8e6 c8d7 a8a7 h8g8 d8a5 d8b6 d8c7 d8d7 e8d7
+
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0.2
+  - Engine's Choice: b8d7
+
+========================================
+Move 7 (White)
+Move Played: O-O (e1g1)
+----------------------------------------
+All Legal Moves (42):
+a2a3 a2a4 b2b3 b2b4 f2f3 f2f4 g2g3 g2g4 h2h3 h2h4
+e4e5 c3b1 c3a4 c3b5 c3d5 d4b3 d4f3 d4b5 d4f5 d4c6
+d4e6 c1d2 c1e3 c1f4 c1g5 c1h6 e2f1 e2d3 e2f3 e2c4
+e2g4 e2b5 e2h5 e2a6 a1b1 h1f1 h1g1 d1d2 d1d3 e1f1
+e1d2 e1g1 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0
+  - Engine's Choice: c1e3
+
+========================================
+Move 7 (Black)
+Move Played: Be7 (f8e7)
+----------------------------------------
+All Legal Moves (28):
+a6a5 d6d5 e6e5 b7b6 b7b5 g7g6 g7g5 h7h6 h7h5 f6e4
+f6g4 f6d5 f6h5 f6d7 f6g8 b8c6 b8d7 c8d7 f8e7 a8a7
+h8g8 d8a5 d8b6 d8c7 d8d7 d8e7 e8d7 e8e7 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0
+  - Engine's Choice: c8d7
+
+========================================
+Move 8 (White)
+Move Played: a4 (a2a4)
+----------------------------------------
+All Legal Moves (39):
+a2a3 a2a4 b2b3 b2b4 f2f3 f2f4 g2g3 g2g4 h2h3 h2h4
+e4e5 c3b1 c3a4 c3b5 c3d5 d4b3 d4f3 d4b5 d4f5 d4c6
+d4e6 c1d2 c1e3 c1f4 c1g5 c1h6 e2d3 e2f3 e2c4 e2g4
+e2b5 e2h5 e2a6 a1b1 f1e1 d1e1 d1d2 d1d3 g1h1 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0.55
+  - Engine's Choice: c1e3
+
+========================================
+Move 8 (Black)
+Move Played: Nc6 (b8c6)
+----------------------------------------
+All Legal Moves (29):
+a6a5 d6d5 e6e5 b7b6 b7b5 g7g6 g7g5 h7h6 h7h5 f6e4
+f6g4 f6d5 f6h5 f6d7 f6g8 b8c6 b8d7 e7f8 c8d7 a8a7
+h8f8 h8g8 d8a5 d8b6 d8c7 d8d7 e8d7 e8f8 e8g8 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0.2
+  - Engine's Choice: c8d7
+
+========================================
+Move 9 (White)
+Move Played: Be3 (c1e3)
+----------------------------------------
+All Legal Moves (40):
+b2b3 b2b4 f2f3 f2f4 g2g3 g2g4 h2h3 h2h4 a4a5 e4e5
+c3b1 c3a2 c3b5 c3d5 d4b3 d4f3 d4b5 d4f5 d4c6 d4e6
+c1d2 c1e3 c1f4 c1g5 c1h6 e2d3 e2f3 e2c4 e2g4 e2b5
+e2h5 e2a6 a1b1 a1a2 a1a3 f1e1 d1e1 d1d2 d1d3 g1h1
+
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0.2
+  - Engine's Choice: d4c6
+
+========================================
+Move 9 (Black)
+Move Played: O-O (e8g8)
+----------------------------------------
+All Legal Moves (34):
+a6a5 d6d5 e6e5 b7b6 b7b5 g7g6 g7g5 h7h6 h7h5 c6b4
+c6d4 c6a5 c6e5 c6a7 c6b8 f6e4 f6g4 f6d5 f6h5 f6d7
+f6g8 e7f8 c8d7 a8a7 a8b8 h8f8 h8g8 d8a5 d8b6 d8c7
+d8d7 e8d7 e8f8 e8g8 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0.2
+  - Engine's Choice: c6d4
+
+========================================
+Move 10 (White)
+Move Played: f4 (f2f4)
+----------------------------------------
+All Legal Moves (43):
+b2b3 b2b4 f2f3 f2f4 g2g3 g2g4 h2h3 h2h4 a4a5 e4e5
+c3b1 c3a2 c3b5 c3d5 d4b3 d4f3 d4b5 d4f5 d4c6 d4e6
+e2d3 e2f3 e2c4 e2g4 e2b5 e2h5 e2a6 e3c1 e3d2 e3f4
+e3g5 e3h6 a1b1 a1c1 a1a2 a1a3 f1e1 d1b1 d1c1 d1e1
+d1d2 d1d3 g1h1 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0.7
+  - Engine's Choice: d4c6
+
+========================================
+Move 10 (Black)
+Move Played: Qc7 (d8c7)
+----------------------------------------
+All Legal Moves (31):
+a6a5 d6d5 e6e5 b7b6 b7b5 g7g6 g7g5 h7h6 h7h5 c6b4
+c6d4 c6a5 c6e5 c6a7 c6b8 f6e4 f6g4 f6d5 f6h5 f6d7
+f6e8 c8d7 a8a7 a8b8 f8e8 d8a5 d8b6 d8c7 d8d7 d8e8
+g8h8 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0
+  - Engine's Choice: c6d4
+
+========================================
+Move 11 (White)
+Move Played: Kh1 (g1h1)
+----------------------------------------
+All Legal Moves (43):
+b2b3 b2b4 g2g3 g2g4 h2h3 h2h4 a4a5 e4e5 f4f5 c3b1
+c3a2 c3b5 c3d5 d4b3 d4f3 d4b5 d4f5 d4c6 d4e6 e2d3
+e2f3 e2c4 e2g4 e2b5 e2h5 e2a6 e3c1 e3d2 e3f2 a1b1
+a1c1 a1a2 a1a3 f1e1 f1f2 f1f3 d1b1 d1c1 d1e1 d1d2
+d1d3 g1h1 g1f2 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: -0.1
+  - Engine's Choice: d4c6
+
+========================================
+Move 11 (Black)
+Move Played: Re8 (f8e8)
+----------------------------------------
+All Legal Moves (34):
+a6a5 d6d5 e6e5 b7b6 b7b5 g7g6 g7g5 h7h6 h7h5 c6b4
+c6d4 c6a5 c6e5 c6a7 c6b8 c6d8 f6e4 f6g4 f6d5 f6h5
+f6d7 f6e8 e7d8 c8d7 a8a7 a8b8 f8d8 f8e8 c7a5 c7b6
+c7d7 c7b8 c7d8 g8h8 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0
+  - Engine's Choice: c6d4
+
+========================================
+Move 12 (White)
+Move Played: Bf3 (e2f3)
+----------------------------------------
+All Legal Moves (44):
+b2b3 b2b4 g2g3 g2g4 h2h3 h2h4 a4a5 e4e5 f4f5 c3b1
+c3a2 c3b5 c3d5 d4b3 d4f3 d4b5 d4f5 d4c6 d4e6 e2d3
+e2f3 e2c4 e2g4 e2b5 e2h5 e2a6 e3c1 e3g1 e3d2 e3f2
+a1b1 a1c1 a1a2 a1a3 f1e1 f1g1 f1f2 f1f3 d1b1 d1c1
+d1e1 d1d2 d1d3 h1g1 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0
+  - Engine's Choice: d4c6
+
+========================================
+Move 12 (Black)
+Move Played: Rb8 (a8b8)
+----------------------------------------
+All Legal Moves (35):
+a6a5 d6d5 e6e5 b7b6 b7b5 g7g6 g7g5 h7h6 h7h5 c6b4
+c6d4 c6a5 c6e5 c6a7 c6b8 c6d8 f6e4 f6g4 f6d5 f6h5
+f6d7 e7d8 e7f8 c8d7 a8a7 a8b8 e8d8 e8f8 c7a5 c7b6
+c7d7 c7b8 c7d8 g8f8 g8h8 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0.3
+  - Engine's Choice: c8d7
+
+========================================
+Move 13 (White)
+Move Played: Qd2 (d1d2)
+----------------------------------------
+All Legal Moves (41):
+b2b3 b2b4 g2g3 g2g4 h2h3 h2h4 a4a5 e4e5 f4f5 c3b1
+c3a2 c3e2 c3b5 c3d5 d4e2 d4b3 d4b5 d4f5 d4c6 d4e6
+e3c1 e3g1 e3d2 e3f2 f3e2 f3g4 f3h5 a1b1 a1c1 a1a2
+a1a3 f1e1 f1g1 f1f2 d1b1 d1c1 d1e1 d1d2 d1e2 d1d3
+h1g1 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0.3
+  - Engine's Choice: d4c6
+
+========================================
+Move 13 (Black)
+Move Played: b6 (b7b6)
+----------------------------------------
+All Legal Moves (32):
+a6a5 d6d5 e6e5 b7b6 b7b5 g7g6 g7g5 h7h6 h7h5 c6b4
+c6d4 c6a5 c6e5 c6a7 c6d8 f6e4 f6g4 f6d5 f6h5 f6d7
+e7d8 e7f8 c8d7 b8a8 e8d8 e8f8 c7a5 c7b6 c7d7 c7d8
+g8f8 g8h8 
+----------------------------------------
+Analysis:
+  - Status: ?! Inaccuracy
+  - Eval Drop: 1.75
+  - Engine's Choice: c8d7
+
+========================================
+Move 14 (White)
+Move Played: g4 (g2g4)
+----------------------------------------
+All Legal Moves (46):
+b2b3 b2b4 g2g3 g2g4 h2h3 h2h4 a4a5 e4e5 f4f5 c3b1
+c3d1 c3a2 c3e2 c3b5 c3d5 d4e2 d4b3 d4b5 d4f5 d4c6
+d4e6 e3g1 e3f2 f3d1 f3e2 f3g4 f3h5 a1b1 a1c1 a1d1
+a1e1 a1a2 a1a3 f1b1 f1c1 f1d1 f1e1 f1g1 f1f2 d2c1
+d2d1 d2e1 d2e2 d2f2 d2d3 h1g1 
+----------------------------------------
+Analysis:
+  - Status: ?! Inaccuracy
+  - Eval Drop: 1.8
+  - Engine's Choice: d4c6
+
+========================================
+Move 14 (Black)
+Move Played: Nxd4 (c6d4)
+----------------------------------------
+All Legal Moves (33):
+a6a5 b6b5 d6d5 e6e5 g7g6 g7g5 h7h6 h7h5 c6b4 c6d4
+c6a5 c6e5 c6a7 c6d8 f6e4 f6g4 f6d5 f6h5 f6d7 e7d8
+e7f8 c8b7 c8d7 b8b7 b8a8 e8d8 e8f8 c7a7 c7b7 c7d7
+c7d8 g8f8 g8h8 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0
+  - Engine's Choice: c8b7
+
+========================================
+Move 15 (White)
+Move Played: Bxd4 (e3d4)
+----------------------------------------
+All Legal Moves (42):
+b2b3 b2b4 h2h3 h2h4 a4a5 e4e5 f4f5 g4g5 c3b1 c3d1
+c3a2 c3e2 c3b5 c3d5 e3g1 e3f2 e3d4 f3d1 f3e2 f3g2
+a1b1 a1c1 a1d1 a1e1 a1a2 a1a3 f1b1 f1c1 f1d1 f1e1
+f1g1 f1f2 d2c1 d2d1 d2e1 d2e2 d2f2 d2g2 d2d3 d2d4
+h1g1 h1g2 
+----------------------------------------
+Analysis:
+  - Status: ?! Inaccuracy
+  - Eval Drop: 0.8
+  - Engine's Choice: e3d4
+
+========================================
+Move 15 (Black)
+Move Played: e5 (e6e5)
+----------------------------------------
+All Legal Moves (31):
+a6a5 b6b5 d6d5 e6e5 g7g6 g7g5 h7h6 h7h5 f6e4 f6g4
+f6d5 f6h5 f6d7 e7d8 e7f8 c8b7 c8d7 b8b7 b8a8 e8d8
+e8f8 c7c3 c7c4 c7c5 c7c6 c7a7 c7b7 c7d7 c7d8 g8f8
+g8h8 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0
+  - Engine's Choice: e6e5
+
+========================================
+Move 16 (White)
+Move Played: fxe5 (f4e5)
+----------------------------------------
+All Legal Moves (45):
+b2b3 b2b4 h2h3 h2h4 a4a5 f4f5 f4e5 g4g5 c3b1 c3d1
+c3a2 c3e2 c3b5 c3d5 f3d1 f3e2 f3g2 d4g1 d4f2 d4e3
+d4c5 d4e5 d4b6 a1b1 a1c1 a1d1 a1e1 a1a2 a1a3 f1b1
+f1c1 f1d1 f1e1 f1g1 f1f2 d2c1 d2d1 d2e1 d2e2 d2f2
+d2g2 d2d3 d2e3 h1g1 h1g2 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0
+  - Engine's Choice: f4e5
+
+========================================
+Move 16 (Black)
+Move Played: dxe5 (d6e5)
+----------------------------------------
+All Legal Moves (34):
+a6a5 b6b5 d6d5 d6e5 g7g6 g7g5 h7h6 h7h5 f6e4 f6g4
+f6d5 f6h5 f6d7 e7d8 e7f8 c8g4 c8f5 c8e6 c8b7 c8d7
+b8b7 b8a8 e8d8 e8f8 c7c3 c7c4 c7c5 c7c6 c7a7 c7b7
+c7d7 c7d8 g8f8 g8h8 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0
+  - Engine's Choice: d6e5
+
+========================================
+Move 17 (White)
+Move Played: Be3 (d4e3)
+----------------------------------------
+All Legal Moves (46):
+b2b3 b2b4 h2h3 h2h4 a4a5 g4g5 c3b1 c3d1 c3a2 c3e2
+c3b5 c3d5 f3d1 f3e2 f3g2 d4g1 d4f2 d4e3 d4c5 d4e5
+d4b6 a1b1 a1c1 a1d1 a1e1 a1a2 a1a3 f1b1 f1c1 f1d1
+f1e1 f1g1 f1f2 d2c1 d2d1 d2e1 d2e2 d2f2 d2g2 d2d3
+d2e3 d2f4 d2g5 d2h6 h1g1 h1g2 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: -0.1
+  - Engine's Choice: d4e3
+
+========================================
+Move 17 (Black)
+Move Played: Be6 (c8e6)
+----------------------------------------
+All Legal Moves (37):
+a6a5 b6b5 g7g6 g7g5 h7h6 h7h5 f6e4 f6g4 f6d5 f6h5
+f6d7 e7a3 e7b4 e7c5 e7d6 e7d8 e7f8 c8g4 c8f5 c8e6
+c8b7 c8d7 b8b7 b8a8 e8d8 e8f8 c7c3 c7c4 c7c5 c7c6
+c7d6 c7a7 c7b7 c7d7 c7d8 g8f8 g8h8 
+----------------------------------------
+Analysis:
+  - Status: ?! Inaccuracy
+  - Eval Drop: 0.8
+  - Engine's Choice: c8g4
+
+========================================
+Move 18 (White)
+Move Played: g5 (g4g5)
+----------------------------------------
+All Legal Moves (49):
+b2b3 b2b4 h2h3 h2h4 a4a5 g4g5 c3b1 c3d1 c3a2 c3e2
+c3b5 c3d5 e3g1 e3f2 e3d4 e3f4 e3c5 e3g5 e3b6 e3h6
+f3d1 f3e2 f3g2 a1b1 a1c1 a1d1 a1e1 a1a2 a1a3 f1b1
+f1c1 f1d1 f1e1 f1g1 f1f2 d2c1 d2d1 d2e1 d2e2 d2f2
+d2g2 d2d3 d2d4 d2d5 d2d6 d2d7 d2d8 h1g1 h1g2 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: -0.1
+  - Engine's Choice: g4g5
+
+========================================
+Move 18 (Black)
+Move Played: Nd7 (f6d7)
+----------------------------------------
+All Legal Moves (44):
+a6a5 b6b5 g7g6 h7h6 h7h5 f6e4 f6g4 f6d5 f6h5 f6d7
+e6a2 e6b3 e6h3 e6c4 e6g4 e6d5 e6f5 e6d7 e6c8 e7a3
+e7b4 e7c5 e7d6 e7d8 e7f8 b8b7 b8a8 b8c8 b8d8 e8c8
+e8d8 e8f8 c7c3 c7c4 c7c5 c7c6 c7d6 c7a7 c7b7 c7d7
+c7c8 c7d8 g8f8 g8h8 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: -0.1
+  - Engine's Choice: f6g4
+
+========================================
+Move 19 (White)
+Move Played: Nd5 (c3d5)
+----------------------------------------
+All Legal Moves (48):
+b2b3 b2b4 h2h3 h2h4 a4a5 g5g6 c3b1 c3d1 c3a2 c3e2
+c3b5 c3d5 e3g1 e3f2 e3d4 e3f4 e3c5 e3b6 f3d1 f3e2
+f3g2 f3g4 f3h5 a1b1 a1c1 a1d1 a1e1 a1a2 a1a3 f1b1
+f1c1 f1d1 f1e1 f1g1 f1f2 d2c1 d2d1 d2e1 d2e2 d2f2
+d2g2 d2d3 d2d4 d2d5 d2d6 d2d7 h1g1 h1g2 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: -0.05
+  - Engine's Choice: c3d5
+
+========================================
+Move 19 (Black)
+Move Played: Bxd5 (e6d5)
+----------------------------------------
+All Legal Moves (41):
+a6a5 b6b5 f7f6 f7f5 g7g6 h7h6 h7h5 d7c5 d7f6 d7f8
+e6h3 e6g4 e6d5 e6f5 e7a3 e7b4 e7c5 e7g5 e7d6 e7f6
+e7d8 e7f8 b8b7 b8a8 b8c8 b8d8 e8c8 e8d8 e8f8 c7c2
+c7c3 c7c4 c7c5 c7c6 c7d6 c7a7 c7b7 c7c8 c7d8 g8f8
+g8h8 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: -0.05
+  - Engine's Choice: c7c4
+
+========================================
+Move 20 (White)
+Move Played: exd5 (e4d5)
+----------------------------------------
+All Legal Moves (46):
+b2b3 b2b4 c2c3 c2c4 h2h3 h2h4 a4a5 e4d5 g5g6 e3g1
+e3f2 e3d4 e3f4 e3c5 e3b6 f3d1 f3e2 f3g2 f3g4 f3h5
+a1b1 a1c1 a1d1 a1e1 a1a2 a1a3 f1b1 f1c1 f1d1 f1e1
+f1g1 f1f2 d2c1 d2d1 d2e1 d2e2 d2f2 d2g2 d2c3 d2d3
+d2b4 d2d4 d2a5 d2d5 h1g1 h1g2 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0
+  - Engine's Choice: d2d5
+
+========================================
+Move 20 (Black)
+Move Played: e4 (e5e4)
+----------------------------------------
+All Legal Moves (38):
+e5e4 a6a5 b6b5 f7f6 f7f5 g7g6 h7h6 h7h5 d7c5 d7f6
+d7f8 e7a3 e7b4 e7c5 e7g5 e7d6 e7f6 e7d8 e7f8 b8b7
+b8a8 b8c8 b8d8 e8c8 e8d8 e8f8 c7c2 c7c3 c7c4 c7c5
+c7c6 c7d6 c7a7 c7b7 c7c8 c7d8 g8f8 g8h8 
+----------------------------------------
+Analysis:
+  - Status: ?! Inaccuracy
+  - Eval Drop: 1.15
+  - Engine's Choice: d7c5
+
+========================================
+Move 21 (White)
+Move Played: Bg2 (f3g2)
+----------------------------------------
+All Legal Moves (46):
+b2b3 b2b4 c2c3 c2c4 h2h3 h2h4 a4a5 d5d6 g5g6 e3g1
+e3f2 e3d4 e3f4 e3c5 e3b6 f3d1 f3e2 f3g2 f3e4 f3g4
+f3h5 a1b1 a1c1 a1d1 a1e1 a1a2 a1a3 f1b1 f1c1 f1d1
+f1e1 f1g1 f1f2 d2c1 d2d1 d2e1 d2e2 d2f2 d2g2 d2c3
+d2d3 d2b4 d2d4 d2a5 h1g1 h1g2 
+----------------------------------------
+Analysis:
+  - Status: ?! Inaccuracy
+  - Eval Drop: 1.25
+  - Engine's Choice: f3e4
+
+========================================
+Move 21 (Black)
+Move Played: Bd6 (e7d6)
+----------------------------------------
+All Legal Moves (42):
+a6a5 b6b5 f7f6 f7f5 g7g6 h7h6 h7h5 d7c5 d7e5 d7f6
+d7f8 e7a3 e7b4 e7c5 e7g5 e7d6 e7f6 e7d8 e7f8 b8b7
+b8a8 b8c8 b8d8 e8c8 e8d8 e8f8 c7c2 c7h2 c7c3 c7g3
+c7c4 c7f4 c7c5 c7e5 c7c6 c7d6 c7a7 c7b7 c7c8 c7d8
+g8f8 g8h8 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: -0.05
+  - Engine's Choice: e7d6
+
+========================================
+Move 22 (White)
+Move Played: Qf2 (d2f2)
+----------------------------------------
+All Legal Moves (45):
+b2b3 b2b4 c2c3 c2c4 h2h3 h2h4 a4a5 g5g6 g2f3 g2h3
+g2e4 e3g1 e3f2 e3d4 e3f4 e3c5 e3b6 a1b1 a1c1 a1d1
+a1e1 a1a2 a1a3 f1b1 f1c1 f1d1 f1e1 f1g1 f1f2 f1f3
+f1f4 f1f5 f1f6 f1f7 d2c1 d2d1 d2e1 d2e2 d2f2 d2c3
+d2d3 d2b4 d2d4 d2a5 h1g1 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0.05
+  - Engine's Choice: g2h3
+
+========================================
+Move 22 (Black)
+Move Played: Ne5 (d7e5)
+----------------------------------------
+All Legal Moves (41):
+a6a5 b6b5 f7f6 f7f5 g7g6 h7h6 h7h5 d7c5 d7e5 d7f6
+d7f8 d6h2 d6a3 d6g3 d6b4 d6f4 d6c5 d6e5 d6e7 d6f8
+b8b7 b8a8 b8c8 b8d8 e8e5 e8e6 e8e7 e8c8 e8d8 e8f8
+c7c2 c7c3 c7c4 c7c5 c7c6 c7a7 c7b7 c7c8 c7d8 g8f8
+g8h8 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0.05
+  - Engine's Choice: e8e7
+
+========================================
+Move 23 (White)
+Move Played: b3 (b2b3)
+----------------------------------------
+All Legal Moves (40):
+b2b3 b2b4 c2c3 c2c4 h2h3 h2h4 a4a5 g5g6 g2f3 g2h3
+g2e4 e3c1 e3d2 e3d4 e3f4 e3c5 e3b6 a1b1 a1c1 a1d1
+a1e1 a1a2 a1a3 f1b1 f1c1 f1d1 f1e1 f1g1 f2e1 f2g1
+f2d2 f2e2 f2f3 f2g3 f2f4 f2h4 f2f5 f2f6 f2f7 h1g1
+
+----------------------------------------
+Analysis:
+  - Status: ?! Inaccuracy
+  - Eval Drop: 1.95
+  - Engine's Choice: e3f4
+
+========================================
+Move 23 (Black)
+Move Played: Ng4 (e5g4)
+----------------------------------------
+All Legal Moves (41):
+a6a5 b6b5 f7f6 f7f5 g7g6 h7h6 h7h5 e5d3 e5f3 e5c4
+e5g4 e5c6 e5g6 e5d7 d6a3 d6b4 d6c5 d6e7 d6f8 b8b7
+b8a8 b8c8 b8d8 e8e6 e8e7 e8c8 e8d8 e8f8 c7c2 c7c3
+c7c4 c7c5 c7c6 c7a7 c7b7 c7d7 c7e7 c7c8 c7d8 g8f8
+g8h8 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0
+  - Engine's Choice: e5g4
+
+========================================
+Move 24 (White)
+Move Played: Qg1 (f2g1)
+----------------------------------------
+All Legal Moves (39):
+c2c3 c2c4 h2h3 h2h4 b3b4 a4a5 g5g6 g2f3 g2h3 g2e4
+e3c1 e3d2 e3d4 e3f4 e3c5 e3b6 a1b1 a1c1 a1d1 a1e1
+a1a2 a1a3 f1b1 f1c1 f1d1 f1e1 f1g1 f2e1 f2g1 f2d2
+f2e2 f2f3 f2g3 f2f4 f2h4 f2f5 f2f6 f2f7 h1g1 
+----------------------------------------
+Analysis:
+  - Status: ?! Inaccuracy
+  - Eval Drop: 1.9
+  - Engine's Choice: f2e1
+
+========================================
+Move 24 (Black)
+Move Played: Nxe3 (g4e3)
+----------------------------------------
+All Legal Moves (45):
+a6a5 b6b5 f7f6 f7f5 g7g6 h7h6 h7h5 g4f2 g4h2 g4e3
+g4e5 g4f6 g4h6 d6h2 d6a3 d6g3 d6b4 d6f4 d6c5 d6e5
+d6e7 d6f8 b8b7 b8a8 b8c8 b8d8 e8e5 e8e6 e8e7 e8c8
+e8d8 e8f8 c7c2 c7c3 c7c4 c7c5 c7c6 c7a7 c7b7 c7d7
+c7e7 c7c8 c7d8 g8f8 g8h8 
+----------------------------------------
+Analysis:
+  - Status: ?? Blunder
+  - Eval Drop: 2
+  - Engine's Choice: d6h2
+
+========================================
+Move 25 (White)
+Move Played: Qxe3 (g1e3)
+----------------------------------------
+All Legal Moves (28):
+c2c3 c2c4 h2h3 h2h4 b3b4 a4a5 g5g6 g2f3 g2h3 g2e4
+a1b1 a1c1 a1d1 a1e1 a1a2 a1a3 f1b1 f1c1 f1d1 f1e1
+f1f2 f1f3 f1f4 f1f5 f1f6 f1f7 g1f2 g1e3 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0
+  - Engine's Choice: g1e3
+
+========================================
+Move 25 (Black)
+Move Played: Bxh2 (d6h2)
+----------------------------------------
+All Legal Moves (39):
+a6a5 b6b5 f7f6 f7f5 g7g6 h7h6 h7h5 d6h2 d6a3 d6g3
+d6b4 d6f4 d6c5 d6e5 d6e7 d6f8 b8b7 b8a8 b8c8 b8d8
+e8e5 e8e6 e8e7 e8c8 e8d8 e8f8 c7c2 c7c3 c7c4 c7c5
+c7c6 c7a7 c7b7 c7d7 c7e7 c7c8 c7d8 g8f8 g8h8 
+----------------------------------------
+Analysis:
+  - Status: ?! Inaccuracy
+  - Eval Drop: 1.15
+  - Engine's Choice: c7c2
+
+========================================
+Move 26 (White)
+Move Played: c4 (c2c4)
+----------------------------------------
+All Legal Moves (42):
+c2c3 c2c4 b3b4 a4a5 d5d6 g5g6 g2f3 g2h3 g2e4 a1b1
+a1c1 a1d1 a1e1 a1a2 a1a3 f1b1 f1c1 f1d1 f1e1 f1g1
+f1f2 f1f3 f1f4 f1f5 f1f6 f1f7 e3c1 e3e1 e3g1 e3d2
+e3e2 e3f2 e3c3 e3d3 e3f3 e3g3 e3h3 e3d4 e3e4 e3f4
+e3c5 e3b6 
+----------------------------------------
+Analysis:
+  - Status: ?! Inaccuracy
+  - Eval Drop: 1.2
+  - Engine's Choice: g2e4
+
+========================================
+Move 26 (Black)
+Move Played: Be5 (h2e5)
+----------------------------------------
+All Legal Moves (37):
+a6a5 b6b5 f7f6 f7f5 g7g6 h7h6 h7h5 h2g1 h2g3 h2f4
+h2e5 h2d6 b8b7 b8a8 b8c8 b8d8 e8e5 e8e6 e8e7 e8c8
+e8d8 e8f8 c7g3 c7c4 c7f4 c7c5 c7e5 c7c6 c7d6 c7a7
+c7b7 c7d7 c7e7 c7c8 c7d8 g8f8 g8h8 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0.7
+  - Engine's Choice: c7g3
+
+========================================
+Move 27 (White)
+Move Played: Rad1 (a1d1)
+----------------------------------------
+All Legal Moves (42):
+b3b4 a4a5 c4c5 d5d6 g5g6 g2f3 g2h3 g2e4 a1b1 a1c1
+a1d1 a1e1 a1a2 a1a3 f1b1 f1c1 f1d1 f1e1 f1g1 f1f2
+f1f3 f1f4 f1f5 f1f6 f1f7 e3c1 e3e1 e3g1 e3d2 e3e2
+e3f2 e3c3 e3d3 e3f3 e3g3 e3h3 e3d4 e3e4 e3f4 e3c5
+e3b6 h1g1 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: -0.05
+  - Engine's Choice: a1e1
+
+========================================
+Move 27 (Black)
+Move Played: Bd6 (e5d6)
+----------------------------------------
+All Legal Moves (37):
+a6a5 b6b5 f7f6 f7f5 g7g6 h7h6 h7h5 e5a1 e5b2 e5h2
+e5c3 e5g3 e5d4 e5f4 e5d6 e5f6 b8b7 b8a8 b8c8 b8d8
+e8e6 e8e7 e8c8 e8d8 e8f8 c7c4 c7c5 c7c6 c7d6 c7a7
+c7b7 c7d7 c7e7 c7c8 c7d8 g8f8 g8h8 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0
+  - Engine's Choice: b8b7
+
+========================================
+Move 28 (White)
+Move Played: Rde1 (d1e1)
+----------------------------------------
+All Legal Moves (39):
+b3b4 a4a5 c4c5 g5g6 g2f3 g2h3 g2e4 d1a1 d1b1 d1c1
+d1e1 d1d2 d1d3 d1d4 f1e1 f1g1 f1f2 f1f3 f1f4 f1f5
+f1f6 f1f7 e3c1 e3e1 e3g1 e3d2 e3e2 e3f2 e3c3 e3d3
+e3f3 e3g3 e3h3 e3d4 e3e4 e3f4 e3c5 e3b6 h1g1 
+----------------------------------------
+Analysis:
+  - Status: ?! Inaccuracy
+  - Eval Drop: 1.05
+  - Engine's Choice: g2e4
+
+========================================
+Move 28 (Black)
+Move Played: Re7 (e8e7)
+----------------------------------------
+All Legal Moves (37):
+a6a5 b6b5 f7f6 f7f5 g7g6 h7h6 h7h5 d6h2 d6a3 d6g3
+d6b4 d6f4 d6c5 d6e5 d6e7 d6f8 b8b7 b8a8 b8c8 b8d8
+e8e5 e8e6 e8e7 e8c8 e8d8 e8f8 c7c4 c7c5 c7c6 c7a7
+c7b7 c7d7 c7e7 c7c8 c7d8 g8f8 g8h8 
+----------------------------------------
+Analysis:
+  - Status: ?! Inaccuracy
+  - Eval Drop: 0.95
+  - Engine's Choice: d6b4
+
+========================================
+Move 29 (White)
+Move Played: Bxe4 (g2e4)
+----------------------------------------
+All Legal Moves (35):
+b3b4 a4a5 c4c5 g5g6 g2f3 g2h3 g2e4 e1a1 e1b1 e1c1
+e1d1 e1e2 f1g1 f1f2 f1f3 f1f4 f1f5 f1f6 f1f7 e3c1
+e3g1 e3d2 e3e2 e3f2 e3c3 e3d3 e3f3 e3g3 e3h3 e3d4
+e3e4 e3f4 e3c5 e3b6 h1g1 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: -0.1
+  - Engine's Choice: g2e4
+
+========================================
+Move 29 (Black)
+Move Played: Rbe8 (b8e8)
+----------------------------------------
+All Legal Moves (35):
+a6a5 b6b5 f7f6 f7f5 g7g6 h7h6 h7h5 d6h2 d6a3 d6g3
+d6b4 d6f4 d6c5 d6e5 e7e4 e7e5 e7e6 e7d7 e7e8 b8b7
+b8a8 b8c8 b8d8 b8e8 b8f8 c7c4 c7c5 c7c6 c7a7 c7b7
+c7d7 c7c8 c7d8 g8f8 g8h8 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0
+  - Engine's Choice: b8e8
+
+========================================
+Move 30 (White)
+Move Played: Qh3 (e3h3)
+----------------------------------------
+All Legal Moves (40):
+b3b4 a4a5 c4c5 g5g6 e4b1 e4c2 e4g2 e4d3 e4f3 e4f5
+e4g6 e4h7 e1a1 e1b1 e1c1 e1d1 e1e2 f1g1 f1f2 f1f3
+f1f4 f1f5 f1f6 f1f7 e3c1 e3g1 e3d2 e3e2 e3f2 e3c3
+e3d3 e3f3 e3g3 e3h3 e3d4 e3f4 e3c5 e3b6 h1g1 h1g2
+
+----------------------------------------
+Analysis:
+  - Status: ?? Blunder
+  - Eval Drop: 3.2
+  - Engine's Choice: e3d3
+
+========================================
+Move 30 (Black)
+Move Played: g6 (g7g6)
+----------------------------------------
+All Legal Moves (34):
+a6a5 b6b5 f7f6 f7f5 g7g6 h7h6 h7h5 d6h2 d6a3 d6g3
+d6b4 d6f4 d6c5 d6e5 e7e4 e7e5 e7e6 e7d7 e8a8 e8b8
+e8c8 e8d8 e8f8 c7c4 c7c5 c7c6 c7a7 c7b7 c7d7 c7b8
+c7c8 c7d8 g8f8 g8h8 
+----------------------------------------
+Analysis:
+  - Status: ?? Blunder
+  - Eval Drop: 3.6
+  - Engine's Choice: e7e4
+
+========================================
+Move 31 (White)
+Move Played: Bf3 (e4f3)
+----------------------------------------
+All Legal Moves (41):
+b3b4 a4a5 c4c5 e4b1 e4c2 e4g2 e4d3 e4f3 e4f5 e4g6
+e1a1 e1b1 e1c1 e1d1 e1e2 e1e3 f1g1 f1f2 f1f3 f1f4
+f1f5 f1f6 f1f7 h3g2 h3h2 h3c3 h3d3 h3e3 h3f3 h3g3
+h3g4 h3h4 h3f5 h3h5 h3e6 h3h6 h3d7 h3h7 h3c8 h1g1
+h1g2 
+----------------------------------------
+Analysis:
+  - Status: ?? Blunder
+  - Eval Drop: 5.1
+  - Engine's Choice: h3f3
+
+========================================
+Move 31 (Black)
+Move Played: Rxe1 (e7e1)
+----------------------------------------
+All Legal Moves (37):
+a6a5 b6b5 f7f6 f7f5 h7h6 h7h5 d6h2 d6a3 d6g3 d6b4
+d6f4 d6c5 d6e5 e7e1 e7e2 e7e3 e7e4 e7e5 e7e6 e7d7
+e8a8 e8b8 e8c8 e8d8 e8f8 c7c4 c7c5 c7c6 c7a7 c7b7
+c7d7 c7b8 c7c8 c7d8 g8g7 g8f8 g8h8 
+----------------------------------------
+Analysis:
+  - Status: !! Best Move
+  - Eval Drop: 0.05
+  - Engine's Choice: e7e1
+
+========================================
+
+Analysis complete.
+
+--- Analysis Summary ---
+Total Positions Analyzed: 9020911441
+Total Time Taken: 22756 seconds
+
+Final Board Position:
+  +-----------------+
+8 | . . . . r . k . |
+7 | . . q . . p . p |
+6 | p p . b . . p . |
+5 | . . . P . . P . |
+4 | P . P . . . . . |
+3 | . P . . . B . Q |
+2 | . . . . . . . . |
+1 | . . . . r R . K |
+  +-----------------+
+    a b c d e f g h
+Turn: White
