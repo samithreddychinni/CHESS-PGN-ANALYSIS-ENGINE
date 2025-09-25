@@ -9,6 +9,7 @@
 #include <limits>
 #include <cstdint> 
 #include <chrono>  
+#include <random>  
 
 #ifdef _MSC_VER
 #include <intrin.h> 
@@ -18,7 +19,6 @@
 const int INF = 100000;
 const double BLUNDER_THRESHOLD = 200.0;
 const double INACCURACY_THRESHOLD = 80.0;
-
 
 using U64 = uint64_t;
 
@@ -36,7 +36,6 @@ enum Square {
 enum Piece { P, N, B, R, Q, K, p, n, b, r, q, k, NO_PIECE };
 enum Color { WHITE, BLACK, BOTH };
 enum CastlingRights { WK = 1, WQ = 2, BK = 4, BQ = 8 };
-
 
 inline void set_bit(U64 &bb, int square) { bb |= (1ULL << square); }
 inline bool get_bit(U64 bb, int square) { return (bb >> square) & 1; }
@@ -56,7 +55,6 @@ const U64 not_a_file = 18374403900871474942ULL;
 const U64 not_h_file = 9187201950435737471ULL;
 const U64 not_hg_file = 4557430888798830399ULL;
 const U64 not_ab_file = 18229723555195321596ULL;
-
 
 U64 pawn_attacks[2][64];
 U64 knight_attacks[64];
@@ -93,10 +91,8 @@ void initialize_leaper_attacks() {
     }
     for (int sq = 0; sq < 64; sq++) {
         U64 bit = 1ULL << sq;
-        
         if ((bit << 7) & not_h_file) pawn_attacks[WHITE][sq] |= (bit << 7);
         if ((bit << 9) & not_a_file) pawn_attacks[WHITE][sq] |= (bit << 9);
-        
         if ((bit >> 7) & not_a_file) pawn_attacks[BLACK][sq] |= (bit >> 7);
         if ((bit >> 9) & not_h_file) pawn_attacks[BLACK][sq] |= (bit >> 9);
         
@@ -120,7 +116,6 @@ void initialize_leaper_attacks() {
         king_attacks[sq] = k_attacks;
     }
 }
-
 
 
 struct Move {
@@ -152,7 +147,6 @@ struct Move {
     }
 };
 
-
 const int piece_values[] = { 100, 320, 330, 500, 900, 20000 };
 const int pawn_table[64] = {0,0,0,0,0,0,0,0,50,50,50,50,50,50,50,50,10,10,20,30,30,20,10,10,5,5,10,25,25,10,5,5,0,0,0,20,20,0,0,0,5,-5,-10,0,0,-10,-5,5,5,10,10,-20,-20,10,10,5,0,0,0,0,0,0,0,0};
 const int knight_table[64] = {-50,-40,-30,-30,-30,-30,-40,-50,-40,-20,0,0,0,0,-20,-40,-30,0,10,15,15,10,0,-30,-30,5,15,20,20,15,5,-30,-30,0,15,20,20,15,0,-30,-30,5,10,15,15,10,5,-30,-40,-20,0,5,5,0,-20,-40,-50,-40,-30,-30,-30,-30,-40,-50};
@@ -162,7 +156,6 @@ const int king_table[64] = {-30,-40,-40,-50,-50,-40,-40,-30,-30,-40,-40,-50,-50,
 const int king_table_end_game[64] = {-50,-40,-30,-20,-20,-30,-40,-50,-30,-20,-10,0,0,-10,-20,-30,-30,-10,20,30,30,20,-10,-30,-30,-10,30,40,40,30,-10,-30,-30,-10,30,40,40,30,-10,-30,-30,-10,20,30,30,20,-10,-30,-30,-30,0,0,0,0,-30,-30,-50,-30,-30,-30,-30,-30,-30,-50};
 const int mirror_table[64] = {56,57,58,59,60,61,62,63,48,49,50,51,52,53,54,55,40,41,42,43,44,45,46,47,32,33,34,35,36,37,38,39,24,25,26,27,28,29,30,31,16,17,18,19,20,21,22,23,8,9,10,11,12,13,14,15,0,1,2,3,4,5,6,7};
 
-
 struct BoardState {
     U64 bitboards[12];
     U64 occupancies[3];
@@ -171,6 +164,59 @@ struct BoardState {
     int castle_rights;
 };
 
+struct SegmentNode {
+    double value;
+    int index;
+};
+
+class SegmentTree {
+private:
+    std::vector<SegmentNode> tree;
+    std::vector<double> data;
+    int n;
+
+    void build(int node, int start, int end) {
+        if (start == end) {
+            tree[node] = {data[start], start};
+            return;
+        }
+        int mid = (start + end) / 2;
+        build(2 * node, start, mid);
+        build(2 * node + 1, mid + 1, end);
+        if (tree[2 * node].value >= tree[2 * node + 1].value) {
+            tree[node] = tree[2 * node];
+        } else {
+            tree[node] = tree[2 * node + 1];
+        }
+    }
+
+    SegmentNode query(int node, int start, int end, int l, int r) {
+        if (r < start || end < l) {
+            return {-1e9, -1};
+        }
+        if (l <= start && end <= r) {
+            return tree[node];
+        }
+        int mid = (start + end) / 2;
+        SegmentNode p1 = query(2 * node, start, mid, l, r);
+        SegmentNode p2 = query(2 * node + 1, mid + 1, end, l, r);
+        return (p1.value >= p2.value) ? p1 : p2;
+    }
+
+public:
+    SegmentTree(const std::vector<double>& arr) {
+        data = arr;
+        n = data.size();
+        tree.resize(4 * n);
+        if (n > 0) build(1, 0, n - 1);
+    }
+
+    
+    SegmentNode query(int l, int r) {
+        if (l > r || l < 0 || r >= n) return {-1e9, -1};
+        return query(1, 0, n - 1, l, r);
+    }
+};
 
 
 class BitboardBoard {
@@ -195,18 +241,15 @@ public:
     std::vector<Move> getValidMoves();
 };
 
-
 class PGNParser {
 public:
     static std::vector<std::string> parse(const std::string& pgn_text) {
         std::vector<std::string> moves;
         std::string clean_pgn = pgn_text;
 
-        
         std::replace(clean_pgn.begin(), clean_pgn.end(), '\t', ' ');
         std::replace(clean_pgn.begin(), clean_pgn.end(), '\n', ' ');
         std::replace(clean_pgn.begin(), clean_pgn.end(), '\r', ' ');
-        
         std::string nbsp = "\xC2\xA0";
         size_t pos;
         while ((pos = clean_pgn.find(nbsp)) != std::string::npos) {
@@ -216,9 +259,7 @@ public:
         std::stringstream ss(clean_pgn);
         std::string token;
         while (ss >> token) {
-            
             if (token.back() == '.') continue;
-            
             if (token == "1-0" || token == "0-1" || token == "1/2-1/2") continue;
             token.erase(std::remove_if(token.begin(), token.end(), [](char c){ return c == '+' || c == '#'; }), token.end());
             moves.push_back(token);
@@ -727,6 +768,7 @@ int main() {
     }
 
     std::vector<std::string> san_moves = PGNParser::parse(pgn_text);
+    std::vector<double> eval_drops;
 
     BitboardBoard board;
     Engine engine;
@@ -767,6 +809,7 @@ int main() {
             board.setState(state_before_move);
             
             double eval_drop = (double)(eval_before - eval_after);
+            eval_drops.push_back(eval_drop); 
             
             output_file << "Analysis:\n";
             if (eval_drop >= BLUNDER_THRESHOLD) {
@@ -792,7 +835,7 @@ int main() {
     auto end_time = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double> duration = end_time - start_time;
     
-    std::cout << std::endl;  
+    std::cout << std::endl; 
     
     output_file << "\n========================================\n";
     output_file << "\nAnalysis complete." << std::endl;
@@ -801,6 +844,29 @@ int main() {
     output_file << "Total Positions Analyzed: " << engine.getNodesSearched() << "\n";
     output_file << "Total Time Taken: " << duration.count() << " seconds\n";
     
+    
+    output_file << "\n--- Advanced Game Queries ---\n";
+    if (!eval_drops.empty()) {
+        SegmentTree st(eval_drops);
+        SegmentNode biggest_blunder = st.query(0, eval_drops.size() - 1);
+        output_file << "Overall Biggest Blunder: Move " << (biggest_blunder.index / 2) + 1 
+                    << " (" << (biggest_blunder.index % 2 == 0 ? "White" : "Black") << ")"
+                    << " with an eval drop of " << (biggest_blunder.value / 100.0) << "\n";
+        
+        
+        int mid_start = 20; 
+        int mid_end = 59; 
+        if(eval_drops.size() > mid_start) {
+            SegmentNode mid_blunder = st.query(mid_start, std::min((int)eval_drops.size() -1, mid_end));
+            if(mid_blunder.index != -1) {
+                output_file << "Biggest Blunder in Middlegame (Moves 10-30): Move " << (mid_blunder.index / 2) + 1 
+                            << " (" << (mid_blunder.index % 2 == 0 ? "White" : "Black") << ")"
+                            << " with an eval drop of " << (mid_blunder.value / 100.0) << "\n";
+            }
+        }
+    }
+
+
     output_file << "\nFinal Board Position:";
     board.print(output_file);
 

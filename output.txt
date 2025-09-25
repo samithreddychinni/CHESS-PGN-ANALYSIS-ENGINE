@@ -1,5 +1,5 @@
 --- Chess PGN Analyzer ---
-Analyzing game at depth 4...
+Analyzing game at depth 2...
 
 ========================================
 Move 1 (White)
@@ -41,7 +41,7 @@ f1e2 f1d3 f1c4 f1b5 f1a6 d1e2 d1f3 d1g4 d1h5 e1e2
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: -0.2
+  - Eval Drop: -0.5
   - Engine's Choice: b1c3
 
 ========================================
@@ -55,7 +55,7 @@ d8b6 d8c7
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: 0.3
+  - Eval Drop: 0.2
   - Engine's Choice: b8c6
 
 ========================================
@@ -69,7 +69,7 @@ f1e2 f1d3 f1c4 f1b5 f1a6 h1g1 d1e2 e1e2
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: 0.45
+  - Eval Drop: 0.4
   - Engine's Choice: b1c3
 
 ========================================
@@ -84,8 +84,8 @@ c8h3 c8g4 c8f5 c8e6 c8d7 d8a5 d8b6 d8c7 d8d7 e8d7
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: -0.05
-  - Engine's Choice: g8f6
+  - Eval Drop: -0.2
+  - Engine's Choice: b8c6
 
 ========================================
 Move 4 (White)
@@ -99,8 +99,8 @@ h1g1 d1d2 d1e2 d1d3 d1d4 e1d2 e1e2
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: -0.1
-  - Engine's Choice: f3d4
+  - Eval Drop: -0.2
+  - Engine's Choice: f1b5
 
 ========================================
 Move 4 (Black)
@@ -113,8 +113,8 @@ c8f5 c8e6 c8d7 d8a5 d8b6 d8c7 d8d7 e8d7
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: 0
-  - Engine's Choice: g8f6
+  - Eval Drop: -0.3
+  - Engine's Choice: b8c6
 
 ========================================
 Move 5 (White)
@@ -144,8 +144,8 @@ e8d7
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: 0.45
-  - Engine's Choice: b8d7
+  - Eval Drop: 0.5
+  - Engine's Choice: b8c6
 
 ========================================
 Move 6 (White)
@@ -160,8 +160,8 @@ d1h5 e1d2 e1e2
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: 0.05
-  - Engine's Choice: c1g5
+  - Eval Drop: 0
+  - Engine's Choice: c1e3
 
 ========================================
 Move 6 (Black)
@@ -175,8 +175,8 @@ c8f5 c8e6 c8d7 a8a7 h8g8 d8a5 d8b6 d8c7 d8d7 e8d7
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: 0.2
-  - Engine's Choice: b8d7
+  - Eval Drop: 0.3
+  - Engine's Choice: b8c6
 
 ========================================
 Move 7 (White)
@@ -206,7 +206,7 @@ h8g8 d8a5 d8b6 d8c7 d8d7 d8e7 e8d7 e8e7
 Analysis:
   - Status: !! Best Move
   - Eval Drop: 0
-  - Engine's Choice: c8d7
+  - Engine's Choice: b8c6
 
 ========================================
 Move 8 (White)
@@ -234,8 +234,8 @@ h8f8 h8g8 d8a5 d8b6 d8c7 d8d7 e8d7 e8f8 e8g8
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: 0.2
-  - Engine's Choice: c8d7
+  - Eval Drop: 0
+  - Engine's Choice: b8c6
 
 ========================================
 Move 9 (White)
@@ -250,7 +250,7 @@ e2h5 e2a6 a1b1 a1a2 a1a3 f1e1 d1e1 d1d2 d1d3 g1h1
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: 0.2
+  - Eval Drop: 0.1
   - Engine's Choice: d4c6
 
 ========================================
@@ -296,7 +296,7 @@ g8h8
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: 0
+  - Eval Drop: 0.1
   - Engine's Choice: c6d4
 
 ========================================
@@ -312,8 +312,8 @@ d1d3 g1h1 g1f2
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: -0.1
-  - Engine's Choice: d4c6
+  - Eval Drop: 0
+  - Engine's Choice: e2d3
 
 ========================================
 Move 11 (Black)
@@ -327,7 +327,7 @@ c7d7 c7b8 c7d8 g8h8
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: 0
+  - Eval Drop: 0.1
   - Engine's Choice: c6d4
 
 ========================================
@@ -343,8 +343,8 @@ d1e1 d1d2 d1d3 h1g1
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: 0
-  - Engine's Choice: d4c6
+  - Eval Drop: 0.05
+  - Engine's Choice: e2d3
 
 ========================================
 Move 12 (Black)
@@ -358,8 +358,8 @@ c7d7 c7b8 c7d8 g8f8 g8h8
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: 0.3
-  - Engine's Choice: c8d7
+  - Eval Drop: 0.1
+  - Engine's Choice: c6d4
 
 ========================================
 Move 13 (White)
@@ -374,8 +374,8 @@ h1g1
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: 0.3
-  - Engine's Choice: d4c6
+  - Eval Drop: 0.1
+  - Engine's Choice: f1f2
 
 ========================================
 Move 13 (Black)
@@ -388,9 +388,9 @@ e7d8 e7f8 c8d7 b8a8 e8d8 e8f8 c7a5 c7b6 c7d7 c7d8
 g8f8 g8h8 
 ----------------------------------------
 Analysis:
-  - Status: ?! Inaccuracy
-  - Eval Drop: 1.75
-  - Engine's Choice: c8d7
+  - Status: !! Best Move
+  - Eval Drop: 0.5
+  - Engine's Choice: c6d4
 
 ========================================
 Move 14 (White)
@@ -404,9 +404,9 @@ a1e1 a1a2 a1a3 f1b1 f1c1 f1d1 f1e1 f1g1 f1f2 d2c1
 d2d1 d2e1 d2e2 d2f2 d2d3 h1g1 
 ----------------------------------------
 Analysis:
-  - Status: ?! Inaccuracy
-  - Eval Drop: 1.8
-  - Engine's Choice: d4c6
+  - Status: !! Best Move
+  - Eval Drop: 0.55
+  - Engine's Choice: f1f2
 
 ========================================
 Move 14 (Black)
@@ -420,8 +420,8 @@ c7d8 g8f8 g8h8
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: 0
-  - Engine's Choice: c8b7
+  - Eval Drop: -0.1
+  - Engine's Choice: c6d4
 
 ========================================
 Move 15 (White)
@@ -435,8 +435,8 @@ f1g1 f1f2 d2c1 d2d1 d2e1 d2e2 d2f2 d2g2 d2d3 d2d4
 h1g1 h1g2 
 ----------------------------------------
 Analysis:
-  - Status: ?! Inaccuracy
-  - Eval Drop: 0.8
+  - Status: !! Best Move
+  - Eval Drop: -0.1
   - Engine's Choice: e3d4
 
 ========================================
@@ -451,8 +451,8 @@ g8h8
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: 0
-  - Engine's Choice: e6e5
+  - Eval Drop: 0.25
+  - Engine's Choice: c8b7
 
 ========================================
 Move 16 (White)
@@ -466,8 +466,8 @@ f1c1 f1d1 f1e1 f1g1 f1f2 d2c1 d2d1 d2e1 d2e2 d2f2
 d2g2 d2d3 d2e3 h1g1 h1g2 
 ----------------------------------------
 Analysis:
-  - Status: !! Best Move
-  - Eval Drop: 0
+  - Status: ?! Inaccuracy
+  - Eval Drop: 1.1
   - Engine's Choice: f4e5
 
 ========================================
@@ -498,7 +498,7 @@ d2e3 d2f4 d2g5 d2h6 h1g1 h1g2
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: -0.1
+  - Eval Drop: 0
   - Engine's Choice: d4e3
 
 ========================================
@@ -513,7 +513,7 @@ c7d6 c7a7 c7b7 c7d7 c7d8 g8f8 g8h8
 ----------------------------------------
 Analysis:
   - Status: ?! Inaccuracy
-  - Eval Drop: 0.8
+  - Eval Drop: 0.85
   - Engine's Choice: c8g4
 
 ========================================
@@ -529,7 +529,7 @@ d2g2 d2d3 d2d4 d2d5 d2d6 d2d7 d2d8 h1g1 h1g2
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: -0.1
+  - Eval Drop: 0
   - Engine's Choice: g4g5
 
 ========================================
@@ -545,8 +545,8 @@ c7c8 c7d8 g8f8 g8h8
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: -0.1
-  - Engine's Choice: f6g4
+  - Eval Drop: 0.2
+  - Engine's Choice: b8d8
 
 ========================================
 Move 19 (White)
@@ -561,7 +561,7 @@ d2g2 d2d3 d2d4 d2d5 d2d6 d2d7 h1g1 h1g2
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: -0.05
+  - Eval Drop: 0
   - Engine's Choice: c3d5
 
 ========================================
@@ -577,8 +577,8 @@ g8h8
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: -0.05
-  - Engine's Choice: c7c4
+  - Eval Drop: -0.15
+  - Engine's Choice: e6d5
 
 ========================================
 Move 20 (White)
@@ -593,7 +593,7 @@ d2b4 d2d4 d2a5 d2d5 h1g1 h1g2
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: 0
+  - Eval Drop: -0.05
   - Engine's Choice: d2d5
 
 ========================================
@@ -624,7 +624,7 @@ d2d3 d2b4 d2d4 d2a5 h1g1 h1g2
 ----------------------------------------
 Analysis:
   - Status: ?! Inaccuracy
-  - Eval Drop: 1.25
+  - Eval Drop: 1.2
   - Engine's Choice: f3e4
 
 ========================================
@@ -640,7 +640,7 @@ g8f8 g8h8
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: -0.05
+  - Eval Drop: -0.15
   - Engine's Choice: e7d6
 
 ========================================
@@ -657,7 +657,7 @@ d2d3 d2b4 d2d4 d2a5 h1g1
 Analysis:
   - Status: !! Best Move
   - Eval Drop: 0.05
-  - Engine's Choice: g2h3
+  - Engine's Choice: e3f4
 
 ========================================
 Move 22 (Black)
@@ -671,8 +671,8 @@ c7c2 c7c3 c7c4 c7c5 c7c6 c7a7 c7b7 c7c8 c7d8 g8f8
 g8h8 
 ----------------------------------------
 Analysis:
-  - Status: !! Best Move
-  - Eval Drop: 0.05
+  - Status: ?! Inaccuracy
+  - Eval Drop: 1.2
   - Engine's Choice: e8e7
 
 ========================================
@@ -687,9 +687,9 @@ f2d2 f2e2 f2f3 f2g3 f2f4 f2h4 f2f5 f2f6 f2f7 h1g1
 
 ----------------------------------------
 Analysis:
-  - Status: ?! Inaccuracy
-  - Eval Drop: 1.95
-  - Engine's Choice: e3f4
+  - Status: ?? Blunder
+  - Eval Drop: 3.1
+  - Engine's Choice: g2e4
 
 ========================================
 Move 23 (Black)
@@ -719,7 +719,7 @@ f2e2 f2f3 f2g3 f2f4 f2h4 f2f5 f2f6 f2f7 h1g1
 ----------------------------------------
 Analysis:
   - Status: ?! Inaccuracy
-  - Eval Drop: 1.9
+  - Eval Drop: 1.3
   - Engine's Choice: f2e1
 
 ========================================
@@ -734,8 +734,8 @@ e8d8 e8f8 c7c2 c7c3 c7c4 c7c5 c7c6 c7a7 c7b7 c7d7
 c7e7 c7c8 c7d8 g8f8 g8h8 
 ----------------------------------------
 Analysis:
-  - Status: ?? Blunder
-  - Eval Drop: 2
+  - Status: ?! Inaccuracy
+  - Eval Drop: 1.3
   - Engine's Choice: d6h2
 
 ========================================
@@ -749,7 +749,7 @@ f1f2 f1f3 f1f4 f1f5 f1f6 f1f7 g1f2 g1e3
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: 0
+  - Eval Drop: -0.1
   - Engine's Choice: g1e3
 
 ========================================
@@ -764,7 +764,7 @@ c7c6 c7a7 c7b7 c7d7 c7e7 c7c8 c7d8 g8f8 g8h8
 ----------------------------------------
 Analysis:
   - Status: ?! Inaccuracy
-  - Eval Drop: 1.15
+  - Eval Drop: 1.2
   - Engine's Choice: c7c2
 
 ========================================
@@ -780,7 +780,7 @@ e3c5 e3b6
 ----------------------------------------
 Analysis:
   - Status: ?! Inaccuracy
-  - Eval Drop: 1.2
+  - Eval Drop: 1.65
   - Engine's Choice: g2e4
 
 ========================================
@@ -794,9 +794,9 @@ e8d8 e8f8 c7g3 c7c4 c7f4 c7c5 c7e5 c7c6 c7d6 c7a7
 c7b7 c7d7 c7e7 c7c8 c7d8 g8f8 g8h8 
 ----------------------------------------
 Analysis:
-  - Status: !! Best Move
-  - Eval Drop: 0.7
-  - Engine's Choice: c7g3
+  - Status: ?! Inaccuracy
+  - Eval Drop: 1.2
+  - Engine's Choice: h2e5
 
 ========================================
 Move 27 (White)
@@ -811,8 +811,8 @@ e3b6 h1g1
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: -0.05
-  - Engine's Choice: a1e1
+  - Eval Drop: 0.05
+  - Engine's Choice: a1a2
 
 ========================================
 Move 27 (Black)
@@ -827,7 +827,7 @@ c7b7 c7d7 c7e7 c7c8 c7d8 g8f8 g8h8
 Analysis:
   - Status: !! Best Move
   - Eval Drop: 0
-  - Engine's Choice: b8b7
+  - Engine's Choice: b6b5
 
 ========================================
 Move 28 (White)
@@ -841,7 +841,7 @@ e3f3 e3g3 e3h3 e3d4 e3e4 e3f4 e3c5 e3b6 h1g1
 ----------------------------------------
 Analysis:
   - Status: ?! Inaccuracy
-  - Eval Drop: 1.05
+  - Eval Drop: 1.15
   - Engine's Choice: g2e4
 
 ========================================
@@ -856,8 +856,8 @@ c7b7 c7d7 c7e7 c7c8 c7d8 g8f8 g8h8
 ----------------------------------------
 Analysis:
   - Status: ?! Inaccuracy
-  - Eval Drop: 0.95
-  - Engine's Choice: d6b4
+  - Eval Drop: 1.05
+  - Engine's Choice: d6c5
 
 ========================================
 Move 29 (White)
@@ -886,8 +886,8 @@ c7d7 c7c8 c7d8 g8f8 g8h8
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: 0
-  - Engine's Choice: b8e8
+  - Eval Drop: -0.1
+  - Engine's Choice: b8b7
 
 ========================================
 Move 30 (White)
@@ -933,8 +933,8 @@ h1g2
 ----------------------------------------
 Analysis:
   - Status: ?? Blunder
-  - Eval Drop: 5.1
-  - Engine's Choice: h3f3
+  - Eval Drop: 4.9
+  - Engine's Choice: h3g2
 
 ========================================
 Move 31 (Black)
@@ -948,7 +948,7 @@ c7d7 c7b8 c7c8 c7d8 g8g7 g8f8 g8h8
 ----------------------------------------
 Analysis:
   - Status: !! Best Move
-  - Eval Drop: 0.05
+  - Eval Drop: 0
   - Engine's Choice: e7e1
 
 ========================================
@@ -956,8 +956,12 @@ Analysis:
 Analysis complete.
 
 --- Analysis Summary ---
-Total Positions Analyzed: 9020911441
-Total Time Taken: 22756 seconds
+Total Positions Analyzed: 20466998
+Total Time Taken: 14.8649 seconds
+
+--- Advanced Game Queries ---
+Overall Biggest Blunder: Move 31 (White) with an eval drop of 4.9
+Biggest Blunder in Middlegame (Moves 10-30): Move 30 (Black) with an eval drop of 3.6
 
 Final Board Position:
   +-----------------+
